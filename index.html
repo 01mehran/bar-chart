@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Chart With SVG</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+
+        <!-- Title -->
+        <text class="title" x="200" y="-30" >Programming practice bar chart</text>
+
+
+        <!-- X-axis -->
+        <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="2" />
+        <!-- Y-axis -->
+        <line x1="50" y1="250" x2="50" y2="50" stroke="black" stroke-width="2" />
+
+        <!-- columns -->
+        <rect x="70" y="150" width="40" height="100" fill="#4CAF50" />
+        <rect x="130" y="100" width="40" height="150" fill="#2196F3" />
+        <rect x="190" y="50" width="40" height="200" fill="#FFC107" />
+        <rect x="250" y="180" width="40" height="70" fill="#F44336" />
+        <rect x="310" y="130" width="40" height="120" fill="blue"></rect>
+
+         <!-- class="x-lable" X lables -->
+        <text class="x-lable" x="90" y="270">HTML</text>
+        <text class="x-lable" x="150" y="270">CSS</text>
+        <text class="x-lable" x="210" y="270">JS</text>
+        <text class="x-lable" x="270" y="270">REACT</text>
+        <text class="x-lable" x="330" y="270">GIT</text>
+
+       <!-- Y lables -->
+        <text class="y-lable" x="34" y="70">200</text>
+        <text class="y-lable" x="34" y="120">150</text>
+        <text class="y-lable" x="34" y="170">100</text>
+        <text class="y-lable" x="34" y="220">50</text>
+
+    </svg>
+</body>
+
+</html>

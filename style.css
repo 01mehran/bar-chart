@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 91%
+  );
+  font-family: cursive;
+}
+
+svg {
+  width: 400px;
+  height: 400px;
+}
+.title {
+  text-anchor: middle;
+  font-size: 1.6rem;
+  fill: none;
+  stroke: rgba(5, 38, 226, 0.623);
+}
+.x-lable {
+  text-anchor: middle;
+  fill: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 600;
+}
+.y-lable {
+  text-anchor: end;
+  font-size: 16px;
+  fill: rgba(0, 0, 0, 0.8);
+}
