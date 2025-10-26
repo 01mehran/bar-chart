@@ -45,3 +45,21 @@ svg {
   font-size: 16px;
   fill: rgba(0, 0, 0, 0.8);
 }
+
+.text-container {
+  text-align: center;
+}
+
+.text-container p {
+  color: blue;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-container span {
+  text-align: center;
+  color: green;
+  font-size: 2rem;
+  display: bolck;
+
+}
