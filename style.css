@@ -30,6 +30,12 @@ svg {
   fill: none;
   stroke: rgba(5, 38, 226, 0.623);
 }
+.title-2 {
+  text-anchor: middle;
+  font-size: 1.8rem;
+  fill: none;
+  stroke: green;
+}
 .x-lable {
   text-anchor: middle;
   fill: rgba(0, 0, 0, 0.7);
