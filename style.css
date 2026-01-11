@@ -16,6 +16,10 @@ body {
   font-family: cursive;
 }
 
+body::selection {
+  background-color: #ccc;
+}
+
 svg {
   width: 400px;
   height: 400px;
